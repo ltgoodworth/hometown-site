@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/solihull.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: #ffffff;
+    font-family: "Spinnaker", sans-serif;
+    font-weight: 700;
+}
+
+#hero-title {
+    background-color: #1A2A4A;
+    font-size: 32px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#hero-text {
+    background-color: #1F388A;
+    font-size: 19px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+#activities-section {
+    background-color: #F6E200;
+    height: 380px;
+    color: #1A2A4A;
+    padding: 30px;
+    font-family: "Spinnaker", sans-serif;
+}
+
+#activities-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activities-column h4 {
+    font-size: 18px;
+}
+
+.activities-column img {
+    border-radius: 30px;
+    height: 80px;
+}
+
+#places-section {
+    background-color: #1F388A;
+    height: 380px;
+    color: #F6E200;
+    padding: 30px;
+    font-family: "Spinnaker", sans-serif;
+}
+
+#places-detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.places-column h4 {
+    font-size: 18px;
+}
+
+.places-column img {
+    border-radius: 30px;
+    height: 100px;
+    width: 120px;
+}
+
+.section-header {
+    font-size: 28px;
+}
+
+#guide-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-family: "Spinnaker", sans-serif;
+}
+
+#guide-img {
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+#guide-card {
+    display: flex;
+    background-color: #1F388A;
+    padding: 20px 15px;
+    border-radius: 5px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+#guide-info {
+    padding: 5px;
+}
+
+#guide-card:hover {
+    background-color: gray;
+}
